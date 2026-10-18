@@ -4,42 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Angular 21 · Actividades</title>
-
   <style>
     * { box-sizing: border-box; }
-
     body {
       margin: 0;
       font-family: system-ui, sans-serif;
       background: #f8fafc;
       color: #1e293b;
     }
-
     main {
       max-width: 950px;
       margin: 60px auto;
       padding: 0 24px;
     }
-
-    header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 8px;
-    }
-
+    header { text-align: center; margin-bottom: 40px; }
+    h1 { font-size: 2.5rem; margin-bottom: 8px; }
     header p { color: #64748b; }
-
     .grid {
       display: grid;
-      grid-template-columns:
-        repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 20px;
     }
-
     .card {
       background: white;
       padding: 28px;
@@ -49,35 +34,22 @@
       color: inherit;
       transition: 0.2s ease;
     }
-
     .card:hover {
       transform: translateY(-5px);
       box-shadow: 0 10px 25px #00000012;
       border-color: #dd0031;
     }
-
     .icono { font-size: 2rem; }
-
-    .card h2 {
-      font-size: 1.2rem;
-      margin: 16px 0 10px;
-    }
-
-    .enlace {
-      color: #dd0031;
-      font-size: 0.9rem;
-      font-weight: 600;
-    }
+    .card h2 { font-size: 1.2rem; margin: 16px 0 10px; }
+    .enlace { color: #dd0031; font-size: 0.9rem; font-weight: 600; }
   </style>
 </head>
-
 <body>
   <main>
     <header>
       <h1>🅰️ Angular 21</h1>
       <p>Galería de actividades interactivas</p>
     </header>
-
     <section class="grid">
       <a class="card" href="act1_1/">
         <div class="icono">🧩</div>
