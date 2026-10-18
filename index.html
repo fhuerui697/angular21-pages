@@ -1,13 +1,115 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-<meta charset="utf-8">
-<title>Actividades Angular 21</title>
-<h1>Actividades Angular 21</h1>
-<ul>
-<li><a href="act1_1/">act1_1</a></li>
-<li><a href="act2_1/">act2_1</a></li>
-<li><a href="act3_1/">act3_1</a></li>
-<li><a href="act4_1/">act4_1</a></li>
-<li><a href="act5_1/">act5_1</a></li>
-<li><a href="act99_1/">act99_1</a></li>
-</ul></html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angular 21 · Actividades</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+    }
+
+    main {
+      max-width: 950px;
+      margin: 60px auto;
+      padding: 0 24px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 8px;
+    }
+
+    header p { color: #64748b; }
+
+    .grid {
+      display: grid;
+      grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 16px;
+      border: 1px solid #e2e8f0;
+      text-decoration: none;
+      color: inherit;
+      transition: 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px #00000012;
+      border-color: #dd0031;
+    }
+
+    .icono { font-size: 2rem; }
+
+    .card h2 {
+      font-size: 1.2rem;
+      margin: 16px 0 10px;
+    }
+
+    .enlace {
+      color: #dd0031;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>🅰️ Angular 21</h1>
+      <p>Galería de actividades interactivas</p>
+    </header>
+
+    <section class="grid">
+      <a class="card" href="act1_1/">
+        <div class="icono">🧩</div>
+        <h2>Actividad 1_1</h2>
+        <span class="enlace">Ver demo ↗</span>
+      </a>
+      <a class="card" href="act2_1/">
+        <div class="icono">🧩</div>
+        <h2>Actividad 2_1</h2>
+        <span class="enlace">Ver demo ↗</span>
+      </a>
+      <a class="card" href="act3_1/">
+        <div class="icono">🧩</div>
+        <h2>Actividad 3_1</h2>
+        <span class="enlace">Ver demo ↗</span>
+      </a>
+      <a class="card" href="act4_1/">
+        <div class="icono">🧩</div>
+        <h2>Actividad 4_1</h2>
+        <span class="enlace">Ver demo ↗</span>
+      </a>
+      <a class="card" href="act5_1/">
+        <div class="icono">🧩</div>
+        <h2>Actividad 5_1</h2>
+        <span class="enlace">Ver demo ↗</span>
+      </a>
+      <a class="card" href="act99_1/">
+        <div class="icono">🧩</div>
+        <h2>Actividad 99_1</h2>
+        <span class="enlace">Ver demo ↗</span>
+      </a>
+    </section>
+  </main>
+</body>
+</html>
