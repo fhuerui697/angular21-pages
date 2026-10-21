@@ -10,7 +10,7 @@ Cada actividad es una aplicación independiente que puedes abrir y probar direct
 
 [![Ver demos Angular](https://img.shields.io/badge/🚀_VER_DEMOS_ANGULAR_21-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://fhuerui697.github.io/angular21-pages)
 
-**[🔗 Abrir galería de actividades](https://github.com/fhuerui697/angular21-pages.git)**
+**[🔗 Abrir galería de actividades](https://fhuerui697.github.io/angular21-pages)**
 
 ---
 
