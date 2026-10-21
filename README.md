@@ -8,9 +8,9 @@ Cada actividad es una aplicación independiente que puedes abrir y probar direct
 
 ### 🌐 Acceder a las demostraciones
 
-[![Ver demos Angular](https://img.shields.io/badge/🚀_VER_DEMOS_ANGULAR_21-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://materiales-fp-fede.github.io/angular21-pages/)
+[![Ver demos Angular](https://img.shields.io/badge/🚀_VER_DEMOS_ANGULAR_21-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://fhuerui697/angular21-pages/)
 
-**[🔗 Abrir galería de actividades](https://materiales-fp-fede.github.io/angular21-pages/)**
+**[🔗 Abrir galería de actividades](https://fhuerui697/angular21-pages/)**
 
 ---
 
